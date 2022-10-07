@@ -5,6 +5,9 @@ import GridView from '../views/GridView.vue'
 import ColumnsView from '../views/ColumnsView.vue'
 import TextosView from '../views/TextosView.vue'
 import ImagensView from '../views/ImagensView.vue'
+import TabelasView from '../views/TabelasView.vue'
+import SpacingView from '../views/SpacingView.vue'
+import FormsView from '../views/FormsView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -36,6 +39,21 @@ const routes: Array<RouteRecordRaw> = [
     path: '/imagens',
     name: 'imagens',
     component: ImagensView
+  },
+  {
+    path: '/tabelas',
+    name: 'tabelas',
+    component: TabelasView
+  },
+  {
+    path: '/spacing',
+    name: 'spacing',
+    component: SpacingView
+  },
+  {
+    path: '/forms',
+    name: 'forms',
+    component: FormsView
   }
 ]
 
