@@ -1,7 +1,8 @@
 <template>
   <!------------ Accordion ------------>
+  <h2 class="text-center">Accordion</h2>
   <div class="container">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-sm-8 offset-sm-2">
         <div class="accordion" id="accordion1">
           <!-- Parte 1 -->
@@ -111,9 +112,9 @@
   <hr />
 
   <!------------ Alerts ------------>
-
+  <h2 class="text-center">Alerts</h2>
   <div class="container">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-sm-8 offset-sm-2">
         <!-- Alerta simples-->
         <div class="alert alert-danger">Texto de perigo</div>
@@ -131,8 +132,9 @@
   <hr />
 
   <!-- Badge -->
+  <h2 class="text-center">Badge</h2>
   <div class="container">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-sm-8 offset-sm-2">
         <div>
           <p>Notificações <span class="badge bg-danger">10</span></p>
@@ -168,9 +170,12 @@
     </div>
   </div>
 
+  <hr />
+
   <!-- Breadcrumb -->
+  <h2 class="text-center">Breadcrumb</h2>
   <div class="container">
-    <div class="row mt-5 mb-5">
+    <div class="row mb-5">
       <div class="col-sm-8 offset-sm-2 p-3 card bg-light">
         <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>'">
           <ol class="breadcrumb">
@@ -182,11 +187,51 @@
       </div>
     </div>
   </div>
+
+  <!-- Buttons -->
+  <h2 class="text-center">Buttons</h2>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3 bg-light">
+        <button class="btn btn-primary btn-lg disabled">Botão</button>
+        <a class="btn btn-outline-primary btn-sm ms-3 disabled" href="#"
+          >Link</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3 bg-light">
+        <button class="btn btn-primary-dimas btn-150-dimas">Botão 1</button>
+        <button class="btn btn-primary-dimas btn-150-dimas">
+          Botão Salvar
+        </button>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style>
+<style scoped>
+.btn-150-dimas {
+  min-width: 150px !important;
+}
+
+.btn-primary-dimas {
+  background-color: orange;
+  border-color: orangered;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-primary-dimas:hover {
+  background-color: orangered;
+  border-color: rgb(38, 255, 0);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+}
 </style>
