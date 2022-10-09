@@ -167,6 +167,21 @@
       </div>
     </div>
   </div>
+
+  <!-- Breadcrumb -->
+  <div class="container">
+    <div class="row mt-5 mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3 card bg-light">
+        <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>'">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Link 1</a></li>
+            <li class="breadcrumb-item"><a href="#">Link 2</a></li>
+            <li class="breadcrumb-item active">Link 3</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
