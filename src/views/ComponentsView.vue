@@ -1,4 +1,5 @@
 <template>
+  <!------------ Accordion ------------>
   <div class="container">
     <div class="row mt-5">
       <div class="col-sm-8 offset-sm-2">
@@ -101,6 +102,66 @@
                 overflow.
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <!------------ Alerts ------------>
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-sm-8 offset-sm-2">
+        <!-- Alerta simples-->
+        <div class="alert alert-danger">Texto de perigo</div>
+
+        <!-- Alerta com link-->
+        <div class="alert alert-primary" role="alert">
+          A simple primary alert with
+          <a href="#" class="alert-link">an example link</a>. Give it a click if
+          you like.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <!-- Badge -->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-sm-8 offset-sm-2">
+        <div>
+          <p>Notificações <span class="badge bg-danger">10</span></p>
+
+          <button type="button" class="btn btn-primary">
+            Notifications <span class="badge text-bg-secondary">4</span>
+          </button>
+
+          <!-- <br />
+          <br /> -->
+
+          <div class="mt-3 mb-5">
+            <button type="button" class="btn btn-primary position-relative">
+              Inbox
+              <span
+                class="
+                  position-absolute
+                  top-0
+                  start-100
+                  translate-middle
+                  badge
+                  rounded-pill
+                  bg-danger
+                "
+              >
+                99+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
           </div>
         </div>
       </div>
