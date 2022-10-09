@@ -178,7 +178,7 @@
       </div>
       <div class="col-md-4">
         <label for="validationCustomUsername" class="form-label"
-          >Username</label
+          >Nome de usuário</label
         >
         <div class="input-group has-validation">
           <span class="input-group-text" id="inputGroupPrepend">@</span>
