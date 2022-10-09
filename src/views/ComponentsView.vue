@@ -458,6 +458,39 @@
       </div>
     </div>
   </div>
+
+  <hr />
+
+  <h2 class="text-center">Dropdowns</h2>
+
+  <div class="container-fluid bg-primary">
+    <div class="row">
+      <div class="col text-end p-3">
+        <div class="dropdown">
+          <button
+            class="btn btn-danger dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            Dropdown button
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="container-fluid p-0">
+    <div class="row mt-5">
+      <div class="col-6 offset-3"></div>
+    </div>
+  </div> -->
 </template>
 
 <script>
