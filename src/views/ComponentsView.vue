@@ -188,6 +188,8 @@
     </div>
   </div>
 
+  <hr />
+
   <!-- Buttons -->
   <h2 class="text-center">Buttons</h2>
   <div class="container">
@@ -208,6 +210,71 @@
         <button class="btn btn-primary-dimas btn-150-dimas">
           Botão Salvar
         </button>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2 class="text-center">Button group</h2>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3 bg-light">
+        <div class="btn-group">
+          <button class="btn btn-outline-primary btn-150-dimas">Left</button>
+          <button class="btn btn-outline-secondary btn-150-dimas">
+            Middle
+          </button>
+          <button class="btn btn-outline-danger btn-150-dimas">Right</button>
+          <a href="#" class="btn btn-outline-warning btn-150-dimas"
+            >Link normal</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3 bg-light">
+        <div class="btn-group-vertical">
+          <button class="btn btn-primary btn-150-dimas">Left</button>
+          <button class="btn btn-secondary btn-150-dimas">Middle</button>
+          <button class="btn btn-danger btn-150-dimas">Right</button>
+          <a href="#" class="btn btn-warning btn-150-dimas">Link normal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2 class="text-center">Cards</h2>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3">
+        <div class="card bg-light p4 text-center">
+          <p>Texto dentro do card</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
