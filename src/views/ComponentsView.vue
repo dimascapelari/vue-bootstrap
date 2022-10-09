@@ -278,6 +278,186 @@
       </div>
     </div>
   </div>
+
+  <hr />
+
+  <h2 class="text-center">Carousel</h2>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item p-5 bg-info active">
+              <p>Texto 1</p>
+            </div>
+            <div class="carousel-item p-5 bg-warning">
+              <p>Texto 2</p>
+            </div>
+            <div class="carousel-item p-5 bg-danger">
+              <p>Texto 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="container-fluid">
+    <div class="row mb-5">
+      <div class="col-12">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item p-5 bg-info active">
+              <p>Texto 1</p>
+            </div>
+            <div class="carousel-item p-5 bg-warning">
+              <p>Texto 2</p>
+            </div>
+            <div class="carousel-item p-5 bg-danger">
+              <p>Texto 3</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-sm-8 offset-sm-2 p-3">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item bg-info active d-flex justify-content-center"
+            >
+              <img src="../assets/images/1.png" class="d-block w-25" />
+              <img src="../assets/images/2.png" class="d-block w-25" />
+            </div>
+            <div class="carousel-item bg-warning">
+              <img src="../assets/images/2.png" class="d-block w-25" />
+            </div>
+            <div class="carousel-item bg-danger">
+              <img src="../assets/images/3.png" class="d-block w-25" />
+            </div>
+            <div class="carousel-item bg-dark">
+              <img src="../assets/images/4.png" class="d-block w-25" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <h2 class="text-center">Collapse</h2>
+  <div class="container-fluid p-0 bg-dark text-white">
+    <div class="row mt-5 mb-5">
+      <div class="col-6 offset-3">
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapse_info"
+        >
+          Mais info...
+        </button>
+
+        <div class="bg-warning p-5 my-3 text-center text-dark">
+          Aviso intermédio do meu layout
+        </div>
+
+        <div class="collapse mt-3 card bg-success" id="collapse_info">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col p-5">Informação da coluna A</div>
+              <div class="col p-5">Informação da coluna B</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
