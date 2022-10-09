@@ -9,6 +9,7 @@ import TabelasView from '../views/TabelasView.vue'
 import SpacingView from '../views/SpacingView.vue'
 import FormsView from '../views/FormsView.vue'
 import LayoutView from '../views/LayoutView.vue'
+import ComponentsView from '../views/ComponentsView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -60,6 +61,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/layout',
     name: 'layout',
     component: LayoutView
+  },
+  {
+    path: '/components',
+    name: 'components',
+    component: ComponentsView
   }
 ]
 

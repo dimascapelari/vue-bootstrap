@@ -9,7 +9,8 @@
     <router-link to="/tabelas">TabelasView</router-link> |
     <router-link to="/spacing">SpacingView</router-link> |
     <router-link to="/forms">FormsView</router-link> |
-    <router-link to="/layout">LayoutView</router-link>
+    <router-link to="/layout">LayoutView</router-link> |
+    <router-link to="/components">ComponentsView</router-link>
   </nav>
   <router-view />
 </template>
