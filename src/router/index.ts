@@ -11,6 +11,7 @@ import FormsView from '../views/FormsView.vue'
 import LayoutView from '../views/LayoutView.vue'
 import ComponentsView from '../views/ComponentsView.vue'
 import NavsView from '../views/NavsView.vue'
+import NavbarView from '../views/NavbarView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -72,6 +73,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/navs',
     name: 'navs',
     component: NavsView
+  },
+  {
+    path: '/navbar',
+    name: 'navbar',
+    component: NavbarView
   }
 ]
 
