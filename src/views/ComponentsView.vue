@@ -847,6 +847,150 @@
       </div>
     </div>
   </div>
+
+  <!-- List Group -->
+  <h2 class="text-center mt-5">List Group</h2>
+  <div class="container-fluid">
+    <div class="row my-5">
+      <div class="col-6 offset-3">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-action disabled">
+            An item
+          </li>
+          <li class="list-group-item list-group-item-action active">
+            A second item
+          </li>
+          <li class="list-group-item list-group-item-action">A third item</li>
+          <li class="list-group-item list-group-item-action">A fourth item</li>
+          <li class="list-group-item list-group-item-action">
+            And a fifth one
+          </li>
+        </ul>
+
+        <hr class="my-5 mx-5" />
+
+        <ol class="list-group list-group-numbered">
+          <li
+            class="
+              list-group-item
+              d-flex
+              justify-content-between
+              align-items-start
+            "
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+          <li
+            class="
+              list-group-item
+              d-flex
+              justify-content-between
+              align-items-start
+            "
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+          <li
+            class="
+              list-group-item
+              d-flex
+              justify-content-between
+              align-items-start
+            "
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <hr class="my-5" />
+
+  <h2 class="text-center">Modal</h2>
+
+  <div class="container-fluid">
+    <div class="row my-5">
+      <div class="col-6 offset-3">
+        <!--   MODAL   -->
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Launch demo modal
+        </button>
+        <!-- /Button -->
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+          data-bs-backdrop="static"
+        >
+          <!-- data-bs-backdrop="static"  obriga clicar no modal para fechar-->
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="modal-body">Conteúdo do modal...</div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--   /MODAL   -->
+
+        <div>
+          <button
+            @click="abre"
+            class="btn btn-primary-dimas"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Mostar modal
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
