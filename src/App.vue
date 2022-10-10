@@ -12,7 +12,8 @@
     <router-link to="/layout">LayoutView</router-link> |
     <router-link to="/components">ComponentsView</router-link> |
     <router-link to="/navs">NavsView</router-link> |
-    <router-link to="/navbar">NavbarView</router-link>
+    <router-link to="/navbar">NavbarView</router-link> |
+    <router-link to="/offcanvas">OffcanvasView</router-link>
   </nav>
   <router-view />
 </template>

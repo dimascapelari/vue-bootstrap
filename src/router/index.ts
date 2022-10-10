@@ -12,6 +12,7 @@ import LayoutView from '../views/LayoutView.vue'
 import ComponentsView from '../views/ComponentsView.vue'
 import NavsView from '../views/NavsView.vue'
 import NavbarView from '../views/NavbarView.vue'
+import OffcanvasView from '../views/OffcanvasView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -78,6 +79,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/navbar',
     name: 'navbar',
     component: NavbarView
+  },
+  {
+    path: '/offcanvas',
+    name: 'offcanvas',
+    component: OffcanvasView
   }
 ]
 
