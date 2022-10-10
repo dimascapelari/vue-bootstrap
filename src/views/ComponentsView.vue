@@ -394,6 +394,8 @@
             >
               <img src="../assets/images/1.png" class="d-block w-25" />
               <img src="../assets/images/2.png" class="d-block w-25" />
+              <img src="../assets/images/3.png" class="d-block w-25" />
+              <img src="../assets/images/4.png" class="d-block w-25" />
             </div>
             <div class="carousel-item bg-warning">
               <img src="../assets/images/2.png" class="d-block w-25" />
@@ -486,11 +488,365 @@
     </div>
   </div>
 
+  <div class="container-fluid bg-dark p-0">
+    <div class="row mt-5">
+      <div class="col-6 offset-3">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex">
+                <img src="../assets/images/1.png" class="d-block w-25" />
+                <img src="../assets/images/2.png" class="d-block w-25" />
+                <img src="../assets/images/3.png" class="d-block w-25" />
+                <img src="../assets/images/4.png" class="d-block w-25" />
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="mb-0">First slide label</h5>
+                <p class="mb-0">
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <img src="../assets/images/2.png" class="d-block w-25" />
+                <img src="../assets/images/3.png" class="d-block w-25" />
+                <img src="../assets/images/4.png" class="d-block w-25" />
+                <img src="../assets/images/1.png" class="d-block w-25" />
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="mb-0">Second slide label</h5>
+                <p class="mb-0">
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex">
+                <img src="../assets/images/3.png" class="d-block w-25" />
+                <img src="../assets/images/4.png" class="d-block w-25" />
+                <img src="../assets/images/1.png" class="d-block w-25" />
+                <img src="../assets/images/2.png" class="d-block w-25" />
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="mb-0">Third slide label</h5>
+                <p class="mb-0">
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- <div class="container-fluid p-0">
     <div class="row mt-5">
       <div class="col-6 offset-3"></div>
     </div>
   </div> -->
+
+  <!--  Bootstrap Multi Slide Carousel  -->
+  <div class="container bg-dark">
+    <div class="container text-center my-3">
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!--Slides-->
+          <div class="carousel-inner mb-5" role="listbox">
+            <!-- Carousel indicador -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <!-- Carousel indicador -->
+            <!--First slide-->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top mx-auto w-75"
+                      src="../assets/images/1.png"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top mx-auto w-75"
+                      src="../assets/images/2.png"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top mx-auto w-75"
+                      src="../assets/images/3.png"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top mx-auto w-75"
+                      src="../assets/images/4.png"
+                    />
+
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Mensagem rodapé slides -->
+              <div class="carousel-caption">
+                <h5 class="mb-0 text-danger">First slide label</h5>
+                <p class="mb-0 text-danger">
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+              <!-- Mensagem rodapé slides -->
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Second slide-->
+
+            <!--Third slide-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img
+                      class="card-img-top"
+                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Third slide-->
+          </div>
+
+          <a
+            class="carousel-control-prev bg-transparent w-aut"
+            href="#recipeCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a
+            class="carousel-control-next bg-transparent w-aut"
+            href="#recipeCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
