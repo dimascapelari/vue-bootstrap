@@ -10,6 +10,7 @@ import SpacingView from '../views/SpacingView.vue'
 import FormsView from '../views/FormsView.vue'
 import LayoutView from '../views/LayoutView.vue'
 import ComponentsView from '../views/ComponentsView.vue'
+import NavsView from '../views/NavsView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -66,6 +67,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/components',
     name: 'components',
     component: ComponentsView
+  },
+  {
+    path: '/navs',
+    name: 'navs',
+    component: NavsView
   }
 ]
 
