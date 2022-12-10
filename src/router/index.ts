@@ -14,7 +14,6 @@ import NavsView from '../views/NavsView.vue'
 import NavbarView from '../views/NavbarView.vue'
 import OffcanvasView from '../views/OffcanvasView.vue'
 
-
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
