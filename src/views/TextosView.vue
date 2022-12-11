@@ -58,7 +58,7 @@
 
     <hr />
 
-    <p>Este é um texto normal</p>
+    <p>Este é um texto normal.</p>
     <p class="small">Este texto está menor</p>
     <p class="mark">Este texto está marcado</p>
     <p class="fw-bold">Este texto está em bold</p>
